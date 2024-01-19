@@ -1,6 +1,6 @@
 # MarkSnap
 
-**QuirVibe** is a website for users to write their markup in Markdown language. MarkSnap will then convert it to plain text, and you can download it as a PDF or the Markdown file.
+**MarkSnap** is a website for users to write their markup in Markdown language. MarkSnap will then convert it to plain text, and you can download it as a PDF or the Markdown file.
 
 ## Table of Contents
 
