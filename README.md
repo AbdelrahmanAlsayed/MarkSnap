@@ -17,11 +17,11 @@
 
 ### Screenshot
 
-![MarkSnap Screenshot]()
+![MarkSnap Screenshot](Screenshot(1).png)
 
 ### Links
 
-- Live Site URL: [MarkSnap]()
+- Live Site URL: [MarkSnap](https://marksnap.vercel.app/signin)
 
 ## My Process
 
