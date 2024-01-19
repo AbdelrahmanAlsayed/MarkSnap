@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+@tailwind base;
+@layer base {
+    .inline-code {
+        @apply inline-block;
+    }
+}   
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid #E5E5E5;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #c2c0c0;
+    font-size: 14px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@layer components {
+    .logo {
+        @apply text-5xl md:text-6xl font-extrabold tracking-wide;
+        font-family: 'Oleo Script', system-ui;
+    }
+}
+
+.arrow {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.min-height-86 {
+    min-height: 86vh;
+}
+
+.max-height-86 {
+    max-height: 86vh;
+}
+
+::-webkit-scrollbar {
+    width: 5px ;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #6b6a6a;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dadcdf;
+    border-radius: 5px;
+}
+
+.inline-code {
+    display: inline-block;
+    padding: 0px 2px 3px 4px;
+    margin: 2px 0;
+    background-color: #6e768166;
+    border-radius: 4px;
+    position: relative;
+}
+
+.inline-code::before,
+.inline-code::after {
+    content: '';
+    position: absolute;
+}
+
+.inline-code::before {
+    left: 0;
+}
+
+.inline-code::after {
+    right: 0;
+}
+
+
+
+
+
